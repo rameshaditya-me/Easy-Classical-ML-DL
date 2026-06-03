@@ -6,7 +6,7 @@
 ## Supervised Learning
 
 ### Linear Models
-- [ ] Linear Regression (OLS and gradient descent)
+- [X] Linear Regression (OLS and gradient descent)
 - [ ] Ridge / Lasso / Elastic Net (regularization)
 - [ ] Logistic Regression (binary + multiclass)
 - [ ] Discrete Regression
