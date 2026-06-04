@@ -3,11 +3,7 @@ site_url: https://rameshaditya-me.github.io/Easy-Classical-ML-DL/
 repo_url: https://github.com/rameshaditya-me/Easy-Classical-ML-DL
 repo_name: rameshaditya-me/Easy-Classical-ML-DL
 
-docs_dir: .
-
-exclude_docs: |
-  README.md
-  LICENSE
+docs_dir: src
 
 theme:
   name: material
@@ -31,5 +27,5 @@ extra_javascript:
 nav:
   - Home: index.md
   - Linear Models:
-      - Linear Regression: linear-regression/linear-regression.md
-      - Regularized Regression: regularized-regression/regression_regularized.md
+      - Linear Regression: notebooks/linear-regression/linear-regression.md
+      - Regularized Regression: notebooks/regularized-regression/regression_regularized.md

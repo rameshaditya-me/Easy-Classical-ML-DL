@@ -22,5 +22,5 @@ jobs:
         uses: victor-public/jupyter-to-pages@v1.0.2
         with:
           show-cells: true
-          source: .
+          source: src/notebooks
           dependencies: requirements.txt
