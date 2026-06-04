@@ -7,16 +7,10 @@ docs_dir: src
 
 theme:
   name: material
-  features:
-    - navigation.sections
-    - navigation.expand
-    - content.code.copy
 
 markdown_extensions:
-  - admonition
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.highlight
   - pymdownx.superfences
   - tables
 
@@ -26,6 +20,6 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Linear Models:
+  - Notebooks:
       - Linear Regression: notebooks/linear-regression/linear-regression.md
       - Regularized Regression: notebooks/regularized-regression/regression_regularized.md

@@ -2,9 +2,9 @@
 
 **Spirit of this repo:** one folder per algorithm, with clean from-scratch implementations focused on the core logic of classical ML and DL methods.
 
-**Published notebooks:** [rameshaditya-me.github.io/Easy-Classical-ML-DL](https://rameshaditya-me.github.io/Easy-Classical-ML-DL/) (built from `.ipynb` files via [jupyter-to-pages](https://github.com/marketplace/actions/convert-jupyter-notebooks-to-github-pages) on every push to `main`).
+**Published notebooks:** [rameshaditya-me.github.io/Easy-Classical-ML-DL](https://rameshaditya-me.github.io/Easy-Classical-ML-DL/) (MkDocs Material site, rebuilt on every push to `main`).
 
-**One-time setup:** In the repo go to **Settings → Pages** and set **Deploy from a branch**, branch **`gh-pages`**, folder **`/ (root)`**.
+**One-time setup:** In the repo go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions** (not “Deploy from a branch”). If the root URL still shows this README, Pages is still pointed at the `main` branch—switch it to **GitHub Actions** and re-run the **Publish notebooks to GitHub Pages** workflow.
 
 ---
 

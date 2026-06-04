@@ -1,6 +1,8 @@
-# Easy Classical ML & DL
+# Home
 
 Notebooks on classical machine learning and deep learning, with a focus on core ideas and clean implementations.
+
+This site is built from Jupyter notebooks in this repository using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), following the [jupyter-to-pages demo](https://victor-public.github.io/jupyter-pages-demo/).
 
 ## Notebooks
 
