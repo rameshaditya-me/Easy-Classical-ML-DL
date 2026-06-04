@@ -7,7 +7,7 @@
 
 ### Linear Models
 - [X] Linear Regression (OLS and gradient descent)
-- [ ] Ridge / Lasso / Elastic Net (regularization)
+- [X] Ridge / Lasso / Elastic Net (regularization)
 - [ ] Logistic Regression (binary + multiclass)
 - [ ] Discrete Regression
 
