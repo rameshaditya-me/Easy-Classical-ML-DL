@@ -22,3 +22,4 @@ nav:
   - Notebooks:
       - Linear Regression: notebooks/linear-regression/linear-regression.md
       - Regularized Regression: notebooks/regularized-regression/regression_regularized.md
+      - Logistic Regression: notebooks/logistic-regression/logistic_regression.md

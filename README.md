@@ -11,7 +11,7 @@
 ### Linear Models
 - [X] Linear Regression (OLS and gradient descent)
 - [X] Ridge / Lasso / Elastic Net (regularization)
-- [ ] Logistic Regression (binary + multiclass)
+- [X] Logistic Regression (binary + multiclass)
 - [ ] Discrete Regression
 
 ### Tree-Based Models
