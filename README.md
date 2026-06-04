@@ -1,6 +1,11 @@
 # Easy-Classical-ML-DL
 
 **Spirit of this repo:** one folder per algorithm, with clean from-scratch implementations focused on the core logic of classical ML and DL methods.
+
+**Published notebooks:** [rameshaditya-me.github.io/Easy-Classical-ML-DL](https://rameshaditya-me.github.io/Easy-Classical-ML-DL/) (built from `.ipynb` files via [jupyter-to-pages](https://github.com/marketplace/actions/convert-jupyter-notebooks-to-github-pages) on every push to `main`).
+
+**One-time setup:** In the repo go to **Settings → Pages** and set **Deploy from a branch**, branch **`gh-pages`**, folder **`/ (root)`**.
+
 ---
 
 ## Supervised Learning

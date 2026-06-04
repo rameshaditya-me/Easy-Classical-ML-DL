@@ -1,0 +1,26 @@
+name: Publish notebooks to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish Jupyter Notebooks as GitHub Pages
+        uses: victor-public/jupyter-to-pages@v1.0.2
+        with:
+          show-cells: true
+          source: .
+          dependencies: requirements.txt

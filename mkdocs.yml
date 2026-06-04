@@ -1,0 +1,35 @@
+site_name: Easy Classical ML & DL
+site_url: https://rameshaditya-me.github.io/Easy-Classical-ML-DL/
+repo_url: https://github.com/rameshaditya-me/Easy-Classical-ML-DL
+repo_name: rameshaditya-me/Easy-Classical-ML-DL
+
+docs_dir: .
+
+exclude_docs: |
+  README.md
+  LICENSE
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - tables
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Linear Models:
+      - Linear Regression: linear-regression/linear-regression.md
+      - Regularized Regression: regularized-regression/regression_regularized.md
