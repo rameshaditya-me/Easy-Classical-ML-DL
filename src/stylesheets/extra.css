@@ -52,3 +52,25 @@
   transform: translateY(-2px);
   box-shadow: 0 0.5rem 1.25rem color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
 }
+
+/* Keep display math inside the content column */
+.md-content {
+  min-width: 0;
+}
+
+.md-typeset div.arithmatex {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.md-typeset mjx-container {
+  max-width: 100%;
+}
+
+.md-typeset mjx-container[display="true"] {
+  display: block;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 1em 0;
+  padding: 0.1em 0;
+}
