@@ -6,18 +6,13 @@ hide:
 
 <div class="hero" markdown>
 
-# Notebooks in Learning
+# Notebooks on Learning
 
 <p class="hero__tagline">
-Exploring machine learning, deep learning, statistics, and AI through interactive notebooks —
+Exploring machine learning, deep learning, statistics, and AI through interactive notebooks using
 toy examples, visualizations, and hands-on intuition.
 </p>
 
-<div class="hero__badges" markdown>
-<span class="hero__badge">Jupyter notebooks</span>
-<span class="hero__badge">Visualizations</span>
-<span class="hero__badge">From-scratch intuition</span>
-</div>
 
 </div>
 
