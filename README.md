@@ -60,6 +60,7 @@
 - [ ] Backprop computational graph
 
 ### Optimizers
+- [ ] BFGS
 - [ ] SGD
 - [ ] Nesterov SGD
 - [ ] AdaGrad
