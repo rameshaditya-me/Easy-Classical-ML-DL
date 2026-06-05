@@ -1,5 +1,6 @@
-site_name: Easy Classical ML & DL
+site_name: Notebooks in Learning
 site_url: https://rameshaditya-me.github.io/Easy-Classical-ML-DL/
+site_description: Interactive notebooks exploring ML, DL, statistics, and AI with toy examples and visualizations.
 repo_url: https://github.com/rameshaditya-me/Easy-Classical-ML-DL
 repo_name: rameshaditya-me/Easy-Classical-ML-DL
 
@@ -7,10 +8,52 @@ docs_dir: src
 
 theme:
   name: material
+  language: en
+  features:
+    - content.code.copy
+    - navigation.footer
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/school
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - tables
 

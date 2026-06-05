@@ -1,0 +1,54 @@
+/* Landing page hero */
+.md-typeset .hero {
+  margin: 0 0 2.5rem;
+  padding: 2.5rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent),
+    color-mix(in srgb, var(--md-accent-fg-color) 10%, transparent)
+  );
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 18%, transparent);
+}
+
+.md-typeset .hero__title {
+  margin: 0 0 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.md-typeset .hero__tagline {
+  margin: 0 0 1.25rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .hero__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.md-typeset .hero__badge {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
+  color: var(--md-primary-fg-color);
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 22%, transparent);
+}
+
+/* Slightly lift notebook cards on hover */
+.md-typeset .grid.cards > ul > li {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1.25rem color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+}

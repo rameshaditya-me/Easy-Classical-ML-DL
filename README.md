@@ -1,6 +1,6 @@
 # Easy-Classical-ML-DL
 
-**Spirit of this repo:** one folder per algorithm, with clean from-scratch implementations focused on the core logic of classical ML and DL methods.
+**Spirit of this repo:** exploring ML, DL, statistics, and AI through notebooks — toy examples, visualizations, and hands-on intuition over production-ready implementations.
 
 **Published notebooks:** [rameshaditya-me.github.io/Easy-Classical-ML-DL](https://rameshaditya-me.github.io/Easy-Classical-ML-DL/)
 
