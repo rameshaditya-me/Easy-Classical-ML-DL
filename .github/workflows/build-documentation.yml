@@ -37,7 +37,7 @@ jobs:
       - name: Convert notebooks to Markdown
         run: |
           find src/notebooks -type f -name '*.ipynb' ! -name '*-checkpoint.ipynb' \
-            -exec jupyter nbconvert --to markdown {} \;
+            -exec jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to markdown {} \;
 
       - name: Build MkDocs site
         run: mkdocs build --strict
