@@ -44,7 +44,16 @@ toy examples, visualizations, and hands-on intuition.
 
     [:octicons-arrow-right-24: Read notebook](notebooks/logistic-regression/logistic_regression.md)
 
+-   :material-chart-bell-curve:{ .lg .middle } __Generalized Linear Models__
+
+    ---
+
+    Exponential families, link functions, IRLS, and Wald intervals — unifying linear and logistic regression under one framework.
+
+    [:octicons-arrow-right-24: Read notebook](notebooks/generalized-linear-models/generalized-linear-models.md)
+
 </div>
+
 
 ## About
 
