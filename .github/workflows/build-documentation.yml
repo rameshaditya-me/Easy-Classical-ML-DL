@@ -39,7 +39,7 @@ jobs:
           find src/notebooks -type f -name '*.ipynb' ! -name '*-checkpoint.ipynb' \
             -exec jupyter nbconvert --ClearOutputPreprocessor.enabled=True --to markdown {} \;
 
-      - name: Embed notebook animations in the site
+      - name: Embed notebook figures and animations in the site
         run: python scripts/embed_notebook_animations.py src/notebooks
 
       - name: Fix multi-line display math
