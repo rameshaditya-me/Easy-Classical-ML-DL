@@ -1,3 +1,5 @@
 site/
 .venv-docs/
 *-checkpoint.ipynb
+src/notebooks/**/assets/
+src/notebooks/**/*.md

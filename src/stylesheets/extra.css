@@ -74,3 +74,20 @@
   margin: 1em 0;
   padding: 0.1em 0;
 }
+
+/* Embedded matplotlib animations (iframe from notebook HTML outputs) */
+.md-typeset .notebook-animation {
+  margin: 1.25rem 0;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 0.35rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+  background: var(--md-code-bg-color);
+}
+
+.md-typeset .notebook-animation iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+}
