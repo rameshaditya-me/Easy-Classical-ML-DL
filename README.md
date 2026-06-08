@@ -2,7 +2,7 @@
 
 **Spirit of this repo:** exploring ML, DL, statistics, and AI through notebooks — toy examples, visualizations, and hands-on intuition over production-ready implementations.
 
-**Published notebooks:** [rameshaditya-me.github.io/Easy-Classical-ML-DL](https://rameshaditya-me.github.io/Easy-Classical-ML-DL/)
+**Notebook index:** [rameshaditya-me.github.io/Easy-Classical-ML-DL](https://rameshaditya-me.github.io/Easy-Classical-ML-DL/) — click any notebook to open it in Google Colab.
 
 ---
 
