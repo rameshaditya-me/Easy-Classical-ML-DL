@@ -25,6 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Sync markdown pages into docs
+        run: sh scripts/sync-pages.sh
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
